@@ -1,0 +1,64 @@
+
+
+.Face li{
+    margin: 10px;
+    line-height: 1.7;
+    font-size: 17px;
+    font-family: cursive;
+    color:white;
+    list-style: none;
+}
+
+
+span{
+    color: white;
+    font-size: 13px;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.Face .pic-container span{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 3%;
+    display: block;
+}
+
+
+.Face .pic-container img{
+    position: relative;
+    border: 3px rgb(4, 4, 19) solid;
+    max-width: 150%;
+    max-height: 150%;
+    margin-top: 80%;
+
+}
+
+
+
+
+.Education{ 
+    margin-top: 100px;
+    background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    .Education{
+        width: 90%;
+        background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+
+    }
+    
+    .Face .pic-container img{
+        position: relative;
+        border: 3px rgb(4, 4, 19) solid;
+        width: 20rem;
+}
+
+}
