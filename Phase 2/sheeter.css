@@ -1,0 +1,51 @@
+
+
+
+span{
+    
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+    margin-left: 10px;
+    line-height: 1.7;
+    font-family: cursive;
+    color:white;
+    padding: auto;
+}
+
+
+
+.Face img{
+        max-width: 100%;
+        
+        margin: auto;
+        border: 3px rgb(4, 4, 19) solid;
+        border-radius: 40%;
+        width: 700px;
+}
+
+
+
+
+
+.Me{
+width: 70%;
+margin-top: 100px;
+background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+ 
+   
+    .Me{
+        width: 90%;
+        background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+        }
+    }
+

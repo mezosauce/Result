@@ -1,0 +1,219 @@
+/*********** Global Styling ************/
+
+.labs .container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 3% 0;
+    }
+    .labs .cs-blue{
+    color: #28C2FE;
+    }
+    
+    
+    
+    /*********** Header Styling ************/
+    
+    .labs .header {
+    background: url(/resources/images/promos/labsheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    }
+    .labs .header .container {
+    text-align: center;
+    padding: 5% 0;
+    color: #fff;
+    }
+    .labs .header .labs-logo {
+    max-width: 125px;
+    }
+    
+    .labs .header h1 {
+    font-size: 7rem;
+    font-weight: 100;
+    padding-bottom: 10px;
+    }
+    
+    .labs .header h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 1.2;
+    }
+    
+    /*********** Header Styling ************/
+    
+    
+    /*********** Description Styling ************/
+    .labs .description p{
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.7;
+    max-width: 90%;
+    margin: auto;
+    }
+    .labs .description .xxl-heading{
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 2%;
+    color: #333333;
+    }
+    .labs .description .button {
+    background: #28c2fe;
+    border-radius: 25px;
+    margin: 2% auto;
+    display: block;
+    max-width: 355px;
+    }
+    /*********** Description Styling ************/
+    
+    
+    
+    /*********** Projects Styling ************/
+    .labs .projects h3,
+    .labs .projects-archives h3 {
+    font-size: 4rem;
+    font-weight: 400;
+    padding: 0 2% 2%;
+    text-transform: uppercase;
+    }
+    
+    .labs .projects .section-img{
+    width: 95%;
+    margin: auto;
+    display: block;
+    }
+    .labs .projects ul,
+    .labs .projects-archives ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1% 2%;
+    }
+    .labs .projects ul li,
+    .labs .projects-archives ul li {
+    width: 350px;
+    padding: 2%;
+    }
+    .labs .projects .full-width,
+    .labs .projects-archives .full-width {
+    width: 100%;
+    }
+    .labs .projects ul .heading,
+    .labs .projects-archives ul .heading {
+    font-size: 24px;
+    display: block;
+    position: relative;
+    padding-bottom: 5%;
+    }
+    .labs .projects ul .headingv2,
+    .labs .projects-archives ul .headingv2 {
+    padding-bottom: 2%;
+    }
+    .labs .projects ul p,
+    .labs .projects-archives ul p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.7;
+    }
+    .labs .projects .button-wrapper,
+    .labs .projects-archives .button-wrapper {
+    margin-top: 3%;
+    }
+    .labs .projects .bottom-border {
+    border-bottom: 1px solid #505050;
+    }
+    .labs .projects-archives .container .intro {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.7;
+    padding: 0 2%;
+    }
+    /*********** Projects Styling ************/
+    
+    /*********** Rows Styling ************/
+    .labs .row .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .labs .row-rvs .container{
+    flex-direction: row-reverse;
+    }
+    
+    .labs .row .box{
+    width: 500px;
+    }
+    .labs .row .text-section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+    .labs .row .container .heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 3%;
+    display: block;
+    }
+    .labs .row .container .text-section p {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.7;
+    }
+    .labs .row-rvs .image-section img{
+    float: right;
+    }
+    @media(max-width: 768px){
+    .labs .container {
+    padding: 3%;
+    }
+    .labs .header h1 {
+    font-size: 5rem;
+    }
+    .labs .header h2 {
+    font-size: 2rem;
+    }
+    .labs .description .xxl-heading {
+    font-size: 4rem;
+    }
+    .labs .description .button {
+    margin: 5% auto;
+    }
+    .labs .description .xxl-heading {
+    text-align: left;
+    font-size: 4rem;
+    }
+    .labs .description p {
+    max-width: 100%;
+    padding: 2%;
+    }
+    .labs .container {
+    padding: 3% 4%;
+    }
+    .labs .projects ul li {
+    width: 100%;
+    }
+    .labs .projects ul {
+    justify-content: space-around;
+    }
+    .labs .projects ul li {
+    padding: 2% 0;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 3%;
+    }
+    .labs .row .container {
+    justify-content: center;
+    }
+    .labs .row .container .image-section img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    padding-bottom: 5%;
+    width: 100%;
+    }
+    .labs .row-rvs .image-section img{
+    float: none;
+    }
+    }

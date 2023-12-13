@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sofia+Sans+Condensed:ital,wght@0,500;0,700;1,200&display=swap');
+
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: URL(Pics/background1.PNG)
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 241, 0);
+}
+ul{
+    list-style: none;
+
+}
+
+li {
+    margin: 5px 0;
+    line-height: 1.7;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/*HEAD*/
+.head {
+    width: 100%;
+    height: auto; 
+    background-color: rgb(0, 0, 0);
+   padding: 20px; 
+   box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 
+0 2px 2px rgb(0 0 0 / 6%),
+ 0 0 2px rgb(0 0 0 / 7%);
+}
+
+a:hover {
+    color: rgb(241, 2, 2);
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+}
+.head-title {   
+text-transform: uppercase;
+justify-content: space-around;    
+flex: 1;
+margin-left: 20px;
+}
+
+
+.head ul{
+    display: flex;
+    text-align: center;
+}
+
+.head img{
+    width: auto;
+    height: 60px;
+
+}
+
+
+.Face {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    background-color:rgb(241, 2, 2);
+}
+
+.pic-container{
+    margin-top: auto; 
+    flex: 3 1 50%;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.Face img{
+    position: relative;
+    border: 3px rgb(16, 14, 78) solid;
+    border-radius: 40%;
+    align-self: flex-end;   
+    max-width: 50%;
+    max-height: 50%;
+}
+.Face p{
+    color: rgb(16, 14, 78);
+    font-size: 48px;
+    z-index: 1;
+}
